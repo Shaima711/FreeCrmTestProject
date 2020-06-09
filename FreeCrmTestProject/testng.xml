@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FreeCrmApplicationTest">
+  <parameter name="URL" value="https://itss1.odoo.com/web/login"></parameter>
+  <test thread-count="5" name="EndToEndTest">
+    <classes>
+      <class name="com.freecrm.testcases.CreateNewPipeline"/>
+      <class name="com.freecrm.testcases.LoginPageTest"/>
+      <class name="com.freecrm.testcases.ViewLinksTest"/>
+    </classes>
+  </test> <!-- EndToEndTest -->
+</suite> <!-- FreeCrmApplicationTest -->

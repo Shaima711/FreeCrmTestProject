@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FreeCrmApplicationTest" class="navigator-link">
+              <span class="suite-name border-passed">FreeCrmApplicationTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FreeCrmApplicationTest" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace\FreeCrmTestProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FreeCrmApplicationTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FreeCrmApplicationTest" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FreeCrmApplicationTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FreeCrmApplicationTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FreeCrmApplicationTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FreeCrmApplicationTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FreeCrmApplicationTest" class="hide-methods passed suite-FreeCrmApplicationTest"> (hide)</a> <!-- hide-methods passed suite-FreeCrmApplicationTest -->
+                      <a href="#" panel-name="suite-FreeCrmApplicationTest" class="show-methods passed suite-FreeCrmApplicationTest"> (show)</a> <!-- show-methods passed suite-FreeCrmApplicationTest -->
+                    </span>
+                    <div class="method-list-content passed suite-FreeCrmApplicationTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginMissedCredintialsCase">LoginMissedCredintialsCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginNegativeCase">LoginNegativeCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginPositiveCase">LoginPositiveCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.CreateNewPipeline" class="method navigator-link" hash-for-method="checkDiscardbutton">checkDiscardbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.CreateNewPipeline" class="method navigator-link" hash-for-method="checkcreatebutton">checkcreatebutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.CreateNewPipeline" class="method navigator-link" hash-for-method="checkmandatoryfieldsalertmessages">checkmandatoryfieldsalertmessages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.ViewLinksTest" class="method navigator-link" hash-for-method="checkviewsbuttons">checkviewsbuttons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCrmApplicationTest" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FreeCrmApplicationTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FreeCrmApplicationTest" class="panel FreeCrmApplicationTest">
+          <div class="suite-FreeCrmApplicationTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.freecrm.testcases.CreateNewPipeline</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDiscardbutton">
+                  </a> <!-- checkDiscardbutton -->
+                  <span class="method-name">checkDiscardbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkcreatebutton">
+                  </a> <!-- checkcreatebutton -->
+                  <span class="method-name">checkcreatebutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkmandatoryfieldsalertmessages">
+                  </a> <!-- checkmandatoryfieldsalertmessages -->
+                  <span class="method-name">checkmandatoryfieldsalertmessages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCrmApplicationTest-class-passed -->
+          <div class="suite-FreeCrmApplicationTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.freecrm.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMissedCredintialsCase">
+                  </a> <!-- LoginMissedCredintialsCase -->
+                  <span class="method-name">LoginMissedCredintialsCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginNegativeCase">
+                  </a> <!-- LoginNegativeCase -->
+                  <span class="method-name">LoginNegativeCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPositiveCase">
+                  </a> <!-- LoginPositiveCase -->
+                  <span class="method-name">LoginPositiveCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle">
+                  </a> <!-- getTitle -->
+                  <span class="method-name">getTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCrmApplicationTest-class-passed -->
+          <div class="suite-FreeCrmApplicationTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.freecrm.testcases.ViewLinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkviewsbuttons">
+                  </a> <!-- checkviewsbuttons -->
+                  <span class="method-name">checkviewsbuttons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCrmApplicationTest-class-passed -->
+        </div> <!-- panel FreeCrmApplicationTest -->
+        <div panel-name="test-xml-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\FreeCrmTestProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FreeCrmApplicationTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://itss1.odoo.com/web/login&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EndToEndTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.freecrm.testcases.CreateNewPipeline&quot;/&gt;
+      &lt;class name=&quot;com.freecrm.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.freecrm.testcases.ViewLinksTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EndToEndTest --&gt;
+&lt;/suite&gt; &lt;!-- FreeCrmApplicationTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FreeCrmApplicationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EndToEndTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FreeCrmApplicationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">E2E</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMissedCredintialsCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginNegativeCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginPositiveCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkDiscardbutton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkcreatebutton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkmandatoryfieldsalertmessages</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMissedCredintialsCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkmandatoryfieldsalertmessages</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkviewsbuttons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FreeCrmApplicationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FreeCrmApplicationTest');
+function tableData_FreeCrmApplicationTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkviewsbuttons')
+data.setCell(0, 2, 'com.freecrm.testcases.ViewLinksTest')
+data.setCell(0, 3, 13338);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkmandatoryfieldsalertmessages')
+data.setCell(1, 2, 'com.freecrm.testcases.CreateNewPipeline')
+data.setCell(1, 3, 4099);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginPositiveCase')
+data.setCell(2, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(2, 3, 2223);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkcreatebutton')
+data.setCell(3, 2, 'com.freecrm.testcases.CreateNewPipeline')
+data.setCell(3, 3, 1280);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkDiscardbutton')
+data.setCell(4, 2, 'com.freecrm.testcases.CreateNewPipeline')
+data.setCell(4, 3, 657);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginMissedCredintialsCase')
+data.setCell(5, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(5, 3, 516);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginNegativeCase')
+data.setCell(6, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(6, 3, 441);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getTitle')
+data.setCell(7, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(7, 3, 14);
+window.suiteTableData['FreeCrmApplicationTest']= { tableData: data, tableDiv: 'times-div-FreeCrmApplicationTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-FreeCrmApplicationTest">
+              </div> <!-- times-div-FreeCrmApplicationTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FreeCrmApplicationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FreeCrmApplicationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.freecrm.testcases.CreateNewPipeline</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkcreatebutton</span>
+                <span class="method-start">13921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">15206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">15975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkDiscardbutton</span>
+                <span class="method-start">29475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">30133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">30787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkmandatoryfieldsalertmessages</span>
+                <span class="method-start">41514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">45613 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.freecrm.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">46432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTitle</span>
+                <span class="method-start">52247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">52262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">52865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPositiveCase</span>
+                <span class="method-start">58569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">60793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">61948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginNegativeCase</span>
+                <span class="method-start">67191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">67633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">68870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginMissedCredintialsCase</span>
+                <span class="method-start">73799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">74319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.freecrm.testcases.ViewLinksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Login(https://itss1.odoo.com/web/login)</span>
+                <span class="method-start">74922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkviewsbuttons</span>
+                <span class="method-start">85739 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
